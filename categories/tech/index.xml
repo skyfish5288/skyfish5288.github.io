@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on ZJUT VIS</title>
+    <link>http://skyfish5288.github.io/categories/tech/</link>
+    <description>Recent content in Tech on ZJUT VIS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://skyfish5288.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>组会</title>
+      <link>http://skyfish5288.github.io/post/%E7%BB%84%E4%BC%9A2019-10-24/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://skyfish5288.github.io/post/%E7%BB%84%E4%BC%9A2019-10-24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome To ZJUTVIS</title>
+      <link>http://skyfish5288.github.io/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://skyfish5288.github.io/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
+      <description>&lt;p&gt;到目前为止，Istio提供了一个简单的API来进行流量管理，该API包括了四种资源：RouteRule，DestinationPolicy，EgressRule和Ingress（直接使用了Kubernets的Ingress资源）。借助此API，用户可以轻松管理Istio服务网格中的流量。该API允许用户将请求路由到特定版本的服务，为弹性测试注入延迟和失败，添加超时和断路器等等，所有这些功能都不必更改应用程序本身的代码。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
