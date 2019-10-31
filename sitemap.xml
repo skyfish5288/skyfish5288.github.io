@@ -3,66 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://skyfish5288.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/categories/tech/</loc>
+    <loc>/categories/tech/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/post/%E7%BB%84%E4%BC%9A2019-10-24/</loc>
+    <loc>/post/%E7%BB%84%E4%BC%9A2019-10-24/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/tags/vis/</loc>
+    <loc>/tags/vis/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
+    <loc>/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/search/placeholder/</loc>
+    <loc>/search/placeholder/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/top/about/</loc>
+    <loc>/top/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/top/papers/</loc>
+    <loc>/top/app/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/search/</loc>
+    <loc>/top/papers/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://skyfish5288.github.io/top/</loc>
+    <loc>/search/</loc>
+  </url>
+  
+  <url>
+    <loc>/top/</loc>
   </url>
   
 </urlset>
