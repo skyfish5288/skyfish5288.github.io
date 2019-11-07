@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="组会" />
-    <meta property="og:title" content="组会" />
-    <meta property="twitter:title" content="组会" />
+    <meta name="title" content="多视图多类别散点图的利用集合覆盖优化的数据采样 (Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization)" />
+    <meta property="og:title" content="多视图多类别散点图的利用集合覆盖优化的数据采样 (Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization)" />
+    <meta property="twitter:title" content="多视图多类别散点图的利用集合覆盖优化的数据采样 (Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization)" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="浙江工业大学大数据分析与可视化实验室, ZJUT VIS, VIS, Analytics, Data">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>组会-</title>
+    <title>多视图多类别散点图的利用集合覆盖优化的数据采样 (Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization)-</title>
 
     <link rel="canonical" href="/post/%E7%BB%84%E4%BC%9A2019-10-24/">
 
@@ -105,6 +105,10 @@
                     </li>
                     
                     <li>
+                        <a href="/categories/papers">papers</a>
+                    </li>
+                    
+                    <li>
                         <a href="/categories/tech">tech</a>
                     </li>
                     
@@ -161,7 +165,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/https:/img.zhaohuabing.com/in-post/2018-06-04-introducing-the-istio-v1alpha3-routing-api/background.jpg')
+        background-image: url('/img/post-bg-coffee.jpeg')
     }
 </style>
 <header class="intro-header">
@@ -172,7 +176,7 @@
                     <div class="tags">
                         
                     </div>
-                    <h1>组会</h1>
+                    <h1>多视图多类别散点图的利用集合覆盖优化的数据采样 (Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization)</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         Posted by 
@@ -206,51 +210,41 @@
 
                 
                 <header>
-                    <h2>TOC</h2>
+                    <h2></h2>
                 </header>
-                
+                <nav id="TableOfContents">
+<ul>
+<li><a href="#多视图多类别散点图的利用集合覆盖优化的数据采样">多视图多类别散点图的利用集合覆盖优化的数据采样</a>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#此例中-每三个数据点采样一个">此例中，每三个数据点采样一个</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
                 
                 
 
-                
-                
-<div class="entry-shang text-center">
-    
-	    <p>「真诚赞赏，手留余香」</p>
-	
-	<button class="zs show-zs btn btn-bred">赞赏支持</button>
-</div>
-<div class="zs-modal-bg"></div>
-<div class="zs-modal-box">
-	<div class="zs-modal-head">
-		<button type="button" class="close">×</button>
-		<span class="author"><a href=""><img src="/img/favicon.png" />ZJUT VIS</a></span>
-        
-	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
-		
- 
-	</div>
-	<div class="zs-modal-body">
-		<div class="zs-modal-btns">
-			<button class="btn btn-blink" data-num="2">2元</button>
-			<button class="btn btn-blink" data-num="5">5元</button>
-			<button class="btn btn-blink" data-num="10">10元</button>
-			<button class="btn btn-blink" data-num="50">50元</button>
-			<button class="btn btn-blink" data-num="100">100元</button>
-			<button class="btn btn-blink" data-num="1">任意金额</button>
-		</div>
-		<div class="zs-modal-pay">
-			<button class="btn btn-bred" id="pay-text">2元</button>
-			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
-			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
-		</div>
-	</div>
-	<div class="zs-modal-footer">
-		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
-		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
-	</div>
-</div>
-<script type="text/javascript" src="/js/reward.js"></script>
+<h1 id="多视图多类别散点图的利用集合覆盖优化的数据采样">多视图多类别散点图的利用集合覆盖优化的数据采样</h1>
+
+<p>对高维数据进行可视化，一个常用的方法是散点图。对于具有2个以上维度的数据，可以使用散点图矩阵(scatterplot matrix, SPLOM)，其中每一个视图是某2个维度的散点图。随着数据量的增加，在散点图中可能出现点的重叠问题（overdrawing），影响后续的分析。有许多方法用来缓解这种问题，比如调整散点图中的符号（marker），改变它的大小、透明度、位置等；使用密度图；进行数据采样等。本文提出了一种在散点图矩阵中对多类别数据进行多视图联合优化的数据采样方法。</p>
+
+<p>首先，对于一个散点图，利用Z-order曲线进行数据采样。在二维空间中，利用四分树不断地对空间进行四分，直到所有的小格中只有一个或零个数据点。接着，按照左下-右下-左上-右上的顺序（如果原点在左下角）递归地把所有的点连接起来。根据给定的采样数量，将曲线中的点按顺序分段，并在每段中随机挑选一个点保留下来，组成采样结果。</p>
+
+<p><img src="/r1/20191027-Z_order-768x284.png" alt="" /></p>
+
+<h6 id="此例中-每三个数据点采样一个">此例中，每三个数据点采样一个</h6>
+
 
                 
 

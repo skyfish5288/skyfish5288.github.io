@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ZJUT VIS</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on ZJUT VIS</description>
+    <title>PAPERS on ZJUT VIS</title>
+    <link>/categories/papers/</link>
+    <description>Recent content in PAPERS on ZJUT VIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/papers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/post/%E7%BB%84%E4%BC%9A2019-10-24/</guid>
       <description>多视图多类别散点图的利用集合覆盖优化的数据采样 对高维数据进行可视化，一个常用的方法是散点图。对于具有2个以上维度的数据，可以使用散点图矩阵(</description>
-    </item>
-    
-    <item>
-      <title>Welcome To ZJUTVIS</title>
-      <link>/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</link>
-      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
-      <description>浙江工业大学数据可视化实验室 我们将在这里和大家共享对可视化与可视分析研究领域的理解，一同探讨可视化研究的进展，观察和评论最新的可视化技术和应</description>
     </item>
     
   </channel>

@@ -6,19 +6,10 @@
     <description>Recent content in Tech on ZJUT VIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>组会</title>
-      <link>/post/%E7%BB%84%E4%BC%9A2019-10-24/</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/%E7%BB%84%E4%BC%9A2019-10-24/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Welcome To ZJUTVIS</title>
@@ -26,7 +17,7 @@
       <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
-      <description>&lt;p&gt;到目前为止，Istio提供了一个简单的API来进行流量管理，该API包括了四种资源：RouteRule，DestinationPolicy，EgressRule和Ingress（直接使用了Kubernets的Ingress资源）。借助此API，用户可以轻松管理Istio服务网格中的流量。该API允许用户将请求路由到特定版本的服务，为弹性测试注入延迟和失败，添加超时和断路器等等，所有这些功能都不必更改应用程序本身的代码。&lt;/p&gt;</description>
+      <description>浙江工业大学数据可视化实验室 我们将在这里和大家共享对可视化与可视分析研究领域的理解，一同探讨可视化研究的进展，观察和评论最新的可视化技术和应</description>
     </item>
     
   </channel>
